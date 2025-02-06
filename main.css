@@ -1,0 +1,74 @@
+
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+button {
+    background-color: #7d55e8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #292929;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.todo-item .completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.todo-item button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.todo-item .edit {
+    color: orange;
+}
+
+.todo-item .delete {
+    color: white;
+}
